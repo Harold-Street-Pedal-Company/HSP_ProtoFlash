@@ -18,7 +18,16 @@ HSP ProtoFlash is a cross-platform GUI application for rapid prototyping of audi
 ## Building
 
 1. **Clone the repository**:
-
+   ```cpp
+   git clone <your-repo-url> cd HSP_ProtoFlash
+   
+2. **Configure the project with CMake**:
+   ```cpp
+   cmake -B build -S . -DJUCE_DIR="C:/JUCE/"
+3. **Build the application**:
+   ```cpp
+   cmake --build build
+  
 ## Customization
 
 - Edit `CMakeLists.txt` to add or remove JUCE modules.
