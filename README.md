@@ -1,6 +1,6 @@
 # HSP ProtoFlash
 
-HSP ProtoFlash is a cross-platform GUI application for rapid prototyping of audio tools and plugins, built with C++ and the JUCE framework.
+HSP ProtoFlash is a Windows 10/11 GUI application for rapid Flashing of Binaries to Daisy Seed (or theoretically any DFU bnased) devices, built with C++ and the JUCE framework.
 
 ## Features
 
