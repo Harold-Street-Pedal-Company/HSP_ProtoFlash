@@ -17,6 +17,7 @@ HSP ProtoFlash is a Windows 10/11 GUI application for rapid Flashing of Binaries
 2. **Configure the project with CMake**:
    ```cpp
    cmake -B build -S . -DJUCE_DIR="C:/JUCE/"
+   
 3. **Build the application**:
    ```cpp
    cmake --build build
