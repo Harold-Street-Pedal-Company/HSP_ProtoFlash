@@ -2,13 +2,6 @@
 
 HSP ProtoFlash is a Windows 10/11 GUI application for rapid Flashing of Binaries to Daisy Seed (or theoretically any DFU bnased) devices, built with C++ and the JUCE framework.
 
-## Features
-
-- Modern C++ GUI and audio support via JUCE
-- Windows resource file integration
-- Automatic source file collection
-- Customizable company and product metadata
-
 ## Requirements
 
 - CMake 3.22 or higher
@@ -28,11 +21,10 @@ HSP ProtoFlash is a Windows 10/11 GUI application for rapid Flashing of Binaries
    ```cpp
    cmake --build build
   
-## Customization
-
-- Edit `CMakeLists.txt` to add or remove JUCE modules.
-- Place your source files in the `Source/` directory.
-- Update resource files as needed in the project root.
+## Installer
+   the packaged installer `HSP_Install.exe` will install the HSP_Protoflash.exe file without you being required to build it yourself.  Double click and follow the instructions.  
+  # NOTE:
+  Windows Defender may report this as an unsafe download.  It is not, but I should still warn you to use at your own risk!  (even though you can see the source code)
 
 ## License
 
